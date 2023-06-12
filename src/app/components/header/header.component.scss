@@ -3,5 +3,42 @@
     padding: 15px;
 }
 img{
-    margin-left: 170px;
+    margin-left: 130px;
+}
+
+.picture{
+    background-image:  linear-gradient(to right, #ffffff, #83BCAE);
+    display: flex;
+
+}
+.picture img{
+    margin-left: 190px;
+
+
+}
+.light{
+    color: #83BCAE;
+}
+h1{
+    font-size: 52px;
+    // font-weight: bold;
+    line-height: 1.7;
+}
+.info p{
+    font-size: 27px;
+}
+.info{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 320px;
+    padding: 20px;
+
+}
+.nav p{
+    text-align: center;
+    margin-left: 6px;
 }

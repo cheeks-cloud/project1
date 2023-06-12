@@ -11,6 +11,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DiscoverComponent } from './components/discover/discover.component';
+import { SliderComponent } from './components/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DiscoverComponent } from './components/discover/discover.component';
     FooterComponent,
     HeaderComponent,
     HomeComponent,
-    DiscoverComponent
+    DiscoverComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
