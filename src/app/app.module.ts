@@ -10,13 +10,15 @@ import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DiscoverComponent } from './components/discover/discover.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    DiscoverComponent
   ],
   imports: [
     BrowserModule,

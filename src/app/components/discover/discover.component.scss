@@ -1,0 +1,61 @@
+
+
+h2{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+.info{
+    margin-left: 150px;
+    padding: 40px;
+}
+.info p{
+    font-size: 23px;
+    line-height: 1.5;
+
+}
+
+
+
+.discover{
+    background-image: url('/assets/images/In banner 1.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+
+
+
+
+
+.cards{
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+margin-left: 170px;
+margin-right: 120px;
+
+}
+mat-card{
+    background-color: #006A61;
+    margin-right: 20px; 
+    border-radius: 26px;
+    margin-bottom: 30px;
+    padding: 20px;
+   
+}
+mat-card img{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+mat-card:hover{
+  background-color: #6DC1B5;  
+}
+mat-card-content{
+    text-align: center;
+ }
+
