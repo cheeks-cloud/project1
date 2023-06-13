@@ -43,19 +43,66 @@ h1{
     margin-left: 6px;
 }
 
-  
 
 
 
-
-@media screen and (max-width: 905px) {
+@media screen and (min-width: 905px) {
 
     img{
-        margin-left: 40px;
+        margin-left: 70px;
     }
     .picture img{
         margin-left: 80px;
     }
+
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+
+    
+}
+@media screen and (max-width: 320px) {
+    img{
+        margin-left: 5px;
+     }
+     .picture img{
+        margin-left: 20px;
+        width: 40px;
+    }
+    .nav{
+        flex-direction: row ;
+        justify-content: center;
+        margin-right: 20px;    
+    }
+    h1{
+        font-size: 15px;
+    }
+    .info p{
+        font-size: 17px;
+    }
+    .img{
+        width: 20px;
+    
+    }
+    .paragraph{
+        font-size: 6px;
+        margin-left: 20px;
+    }
+    .item {
+        flex-direction: row;
+        margin-top: 5px;
+
+      }
+    
+      .img {
+        width: auto;
+        margin-right: 10px;
+        margin-top: 5px;
+      }
 
 
 

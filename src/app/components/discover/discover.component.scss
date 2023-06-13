@@ -1,111 +1,156 @@
-
-
-h2{
+h2 {
     font-size: 48px;
     font-weight: bold;
     line-height: 1.5;
 
 }
-.info{
+
+.info {
     margin-left: 150px;
     padding: 40px;
     margin-top: 40px;
 }
-.info p{
+
+.info p {
     font-size: 23px;
     line-height: 1.5;
 
 }
 
-
-
-.discover{
+.discover {
     background-image: url('/assets/images/In banner 1.png');
     background-size: cover;
     background-position: center;
     color: white;
-
 }
 
-.cards{
-display: flex;
-justify-content: space-between;
-margin-top: 30px;
-margin-left: 170px;
-margin-right: 120px;
 
-}
-.card-title{
+.cards-container {
+    margin: 20px;
+    
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+
+.card-title {
     font-size: 27px;
     padding: 10px;
 }
-mat-card{
+
+mat-card {
     background-color: #006A61;
-    margin-right: 20px; 
+    margin: 20px;
     border-radius: 26px;
     margin-bottom: 30px;
     padding: 20px;
-   
-}
-mat-card img{
-    margin-left: 150px;
-    margin-top: 20px;
+
+
 }
 
-mat-card:hover{
-  background-color: #6DC1B5;  
+mat-card:hover {
+    background-color: #6DC1B5;
 }
-mat-card-content{
-    text-align: center;
- }
- @media screen and (max-width: 905px) {
 
-    .info{
+
+@media screen and (max-width: 1100px) {
+
+    .info {
         margin-left: 50px;
     }
 
-    .cards{
-        margin-left: 120px;
+    .card {
+        margin: 20px;
     }
-    mat-card-content{
-        padding: 25px;
-    
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .info {
+        margin-left: 40px;
     }
-    mat-card img{
-        margin-left: 55px;
-        margin-top: 20px;
+
+}
+
+
+@media screen and (max-width: 620px) {
+
+    .info {
+        margin: 15px;
+        background-image: url('/assets/images/In banner 1.png');
+        background-size: cover;
+        background-position: center;
+        color: white;
     }
- 
-    
- }
 
- @media screen and (max-width: 600px) {
+    .discover {
+        background-image: none;
+        background-color: whitesmoke;
 
-.info{
-    margin: 15px;
-    background-image: url('/assets/images/In banner 1.png');
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
+    }
 
-.discover{
-    background-image: none;
-    background-color: whitesmoke;
+    .cards {
+        flex-direction: column;
+        margin: 40px;
+    }
 
-}
-.cards{
-    flex-direction: column;
-    margin: 40px;
-}
-mat-card img{
-    margin-left: 200px;
-}
-mat-card-content{
-    padding: 20px;
+    mat-card img {
+        // margin-left: 200px;
+    }
+
+    mat-card-content {
+        padding: 20px;
+    }
+
 }
 
 
 
 
- }
+
+
+@media screen and (max-width: 320px) {
+
+
+    .info p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+
+}
+
+@media screen and (max-width: 160px) {
+
+    .cards {
+        margin: 2px;
+        width: 130px;
+
+    }
+
+
+
+    h2 {
+        font-size: 10px;
+        font-weight: 100px;
+    }
+
+    .info p {
+        font-size: 5px;
+        line-height: 0.5;
+
+    }
+
+}
