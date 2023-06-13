@@ -1,6 +1,5 @@
-.header{
+.mat-toolbar{
     background-color: #83BCAE;
-    padding: 15px;
 }
 img{
     margin-left: 130px;
@@ -42,6 +41,16 @@ h1{
     text-align: center;
     margin-left: 6px;
 }
+
+mat-list-item span {
+    flex: 1;
+    text-align: right;
+  }
+  
+
+
+
+
 @media screen and (max-width: 905px) {
 
     img{

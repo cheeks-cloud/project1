@@ -12,6 +12,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DiscoverComponent } from './components/discover/discover.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { MatListModule } from '@angular/material/list';
+
+
 
 @NgModule({
   declarations: [
@@ -29,6 +32,7 @@ import { SliderComponent } from './components/slider/slider.component';
     MatCardModule,
     MatToolbarModule,
     MatButtonModule,
+    MatListModule,
 
 
   ],

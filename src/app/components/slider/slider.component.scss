@@ -1,1 +1,37 @@
+@import '~bootstrap/dist/css/bootstrap.css';
 
+.carousel-item{
+    width: 900px;
+    margin-left: 280px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 25px;
+  height: 25px;
+  background-size: 100% 100%;
+}
+
+@media screen and (max-width: 905px) {
+
+    .carousel-item{
+        width: 600px;
+        margin-left: 100px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-item{
+        width: 350px;
+        margin-left: 10px;
+    }
+
+}
