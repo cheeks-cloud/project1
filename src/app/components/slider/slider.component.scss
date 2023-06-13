@@ -19,7 +19,11 @@
 
     .carousel-item{
         width: 600px;
-        margin-left: 130px;
+        margin-left: 145px;
+    }
+    .carousel-control-next-icon{
+        margin-left: 5px;
+    
     }
 
 }
@@ -27,7 +31,16 @@
 @media screen and (max-width: 600px) {
     .carousel-item{
         width: 350px;
-        margin-left: 10px;
+        margin-left: 120px;
+    }
+    .carousel-control-next-icon{
+        margin-left: 5px;
+        width: 15px;
+    
+    }
+    .carousel-control-previous-icon{
+        width: 15px;
+        margin-right: 5px;
     }
 
 }

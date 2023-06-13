@@ -82,7 +82,7 @@ mat-card-content{
  @media screen and (max-width: 600px) {
 
 .info{
-    margin: 10px;
+    margin: 15px;
     background-image: url('/assets/images/In banner 1.png');
     background-size: cover;
     background-position: center;
@@ -96,10 +96,10 @@ mat-card-content{
 }
 .cards{
     flex-direction: column;
-    margin: 20px;
+    margin: 40px;
 }
 mat-card img{
-    margin-left: 140px;
+    margin-left: 200px;
 }
 mat-card-content{
     padding: 20px;
