@@ -106,9 +106,7 @@ mat-card:hover {
         margin: 40px;
     }
 
-    mat-card img {
-        // margin-left: 200px;
-    }
+   
 
     mat-card-content {
         padding: 20px;
@@ -117,16 +115,16 @@ mat-card:hover {
 }
 
 
-
-
-
-
 @media screen and (max-width: 320px) {
 
 
     .info p {
         font-size: 13px;
         line-height: 1.5;
+    }
+    .cards{
+        width: 270px;
+        margin: 10px;
     }
 
 
