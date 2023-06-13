@@ -26,11 +26,6 @@ h2{
 
 }
 
-
-
-
-
-
 .cards{
 display: flex;
 justify-content: space-between;
@@ -38,6 +33,10 @@ margin-top: 30px;
 margin-left: 170px;
 margin-right: 120px;
 
+}
+.card-title{
+    font-size: 27px;
+    padding: 10px;
 }
 mat-card{
     background-color: #006A61;
@@ -48,7 +47,7 @@ mat-card{
    
 }
 mat-card img{
-    margin-left: 50px;
+    margin-left: 150px;
     margin-top: 20px;
 }
 
@@ -58,4 +57,54 @@ mat-card:hover{
 mat-card-content{
     text-align: center;
  }
+ @media screen and (max-width: 905px) {
 
+    .info{
+        margin-left: 50px;
+    }
+
+    .cards{
+        margin-left: 120px;
+    }
+    mat-card-content{
+        padding: 25px;
+    
+    }
+    mat-card img{
+        margin-left: 55px;
+        margin-top: 20px;
+    }
+ 
+    
+ }
+
+ @media screen and (max-width: 600px) {
+
+.info{
+    margin: 10px;
+    background-image: url('/assets/images/In banner 1.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.discover{
+    background-image: none;
+    background-color: whitesmoke;
+
+}
+.cards{
+    flex-direction: column;
+    margin: 20px;
+}
+mat-card img{
+    margin-left: 140px;
+}
+mat-card-content{
+    padding: 20px;
+}
+
+
+
+
+ }
